@@ -16,7 +16,8 @@
 .amp-dc-banner .amp-dc-banner-info {
   font-size: 22px;
   text-align: center;
-  background: #fff;
+  background: #000;
+  opacity: .5;
   color: #000;
   padding: 15px;
   min-width: 200px;
@@ -68,23 +69,53 @@
 }
 
 .amp-dc-banner .amp-dc-banner-header {
-  font-size: 32px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+  display: inline-block;
+  min-width: 40%;
+  padding: 5px 5px;
+  background: #E4E5E7;
+  color: black;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-.amp-dc-banner .amp-dc-banner-description, .amp-dc-banner .amp-dc-banner-subheader {
-  font-size: 16px;
+.amp-dc-banner .amp-dc-banner-header.black {
+  background: #000;
+  color: #fff;
+}
+
+.amp-dc-banner .amp-dc-banner-header.white {
+  background: #fff;
+  color: #000;
+}
+
+.amp-dc-banner .amp-dc-banner-subheader {
+  font-size: 28px;
   margin-top: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.amp-dc-banner .amp-dc-banner-description {
+  font-size: 35px;
+  margin-top: 15px;
+  font-weight: bold;
+  color: white;
 }
 
 .amp-dc-banner .amp-dc-banner-button {
   font-size: 20px;
+  font-weight: bold;
   margin-top: 15px;
   display: inline-block;
   min-width: 40%;
-  padding: 17px 15px;
-  background: #fff;
+  padding: 8px 15px;
+  background: #ffffff;
+  opacity: 1;
+  color: maroon;
   text-decoration: none;
-  font-weight: bold;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
