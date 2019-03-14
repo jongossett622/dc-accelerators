@@ -1,0 +1,122 @@
+.amp-dc-banner {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .amp-dc-hide {
+    display: none;
+  }
+
+  .amp-dc-banner-info {
+    font-size: 22px;
+    text-align: left;
+    padding: 15px;
+    min-width: 200px;
+
+  }
+
+  .amp-dc-banner-pic {
+    max-width: 100%;
+    display: block;
+    img {
+      width: 100%;
+    }
+  }
+
+  .amp-dc-banner-img {
+    width: 100%;
+    display: block;
+  }
+
+  .amp-dc-banner-info-wrap {
+    color: #fff;
+    width: 40.3%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    white-space: normal;
+
+    &[data-align='left'] {
+      left: 65px;
+    }
+
+    &[data-align='right'] {
+      right: 65px;
+    }
+
+    &:before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+      margin-right: -1em; /* Adjusts for spacing */
+    }
+  }
+
+  .amp-dc-banner-info {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .amp-dc-banner-header {
+    font-size: 55px;
+    font-weight: bold;
+    font-family: "sanaascript";
+    margin-top: 15px;
+    display: inline-block;
+    min-width: 40%;
+    padding: 5px 5px;
+    z-index: 2;
+    color: white;  
+  }
+
+  .amp-dc-banner-subheader {
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: normal;
+    color: white;
+  }
+    
+   .amp-dc-banner-description {
+    font-size: 35px;
+    margin-top: 15px;
+    font-weight: normal;
+    color: white;
+  }
+
+  .amp-dc-banner-button {
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 15px;
+    display: inline-block;
+    min-width: 30%;
+    padding: 8px 8px;
+    background: #ffffff;
+    opacity: 1;
+    color: maroon; 
+    text-decoration: none;
+    box-sizing: border-box;
+    &.black {
+      background: #000;
+      color: #fff;
+    }
+    &.white {
+      background: #fff;
+      color: #000;
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
