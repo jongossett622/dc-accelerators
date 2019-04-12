@@ -10,15 +10,17 @@
 }
 
 .amp-dc-blog .amp-dc-blog-title {
-  font-size: 2em;
+  font-size: 35px;
   text-align: center;
+  font-weight: bold;
+  font-family: "timesnewroman";
 }
 
-.amp-dc-blog .amp-dc-blog-content {
+.amp-dc-blog .amp-dc-blog-title .amp-dc-blog-content {
   margin-top: 20px;
 }
 
-.amp-dc-snippet .amp-dc-image {
+.amp-dc-blog .amp-dc-snippet .amp-dc-image {
   position: relative;
   overflow: hidden;
   white-space: nowrap;
@@ -26,7 +28,7 @@
   display: block;
 }
 
-.amp-dc-snippet .amp-dc-image img {
+.amp-dc-blog .amp-dc-snippet .amp-dc-image img {
   width: 100%;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -34,17 +36,18 @@
   user-select: none;
 }
 
-.amp-dc-snippet .amp-dc-title {
+.amp-dc-blog .amp-dc-snippet .amp-dc-title {
   text-transform: uppercase;
   font-size: 2em;
   margin: 20px;
 }
 
-.amp-dc-snippet .amp-dc-description {
-  padding: 20px;
+.amp-dc-blog .amp-dc-snippet .amp-dc-description {
+  padding: 30px;
+  text-align: center;
 }
 
-.amp-dc-snippet .amp-dc-link {
+.amp-dc-blog .amp-dc-snippet .amp-dc-link {
   margin: 20px;
   font-weight: bold;
 }

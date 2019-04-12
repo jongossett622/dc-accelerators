@@ -37,7 +37,7 @@
 <script src="https://dev-solutions.s3.amazonaws.com/dc-renders/dist/renders/banner/template.banner.min.js"></script>
 
 <!-- script definition with ID -->
-<script id="Banner-jeans3-template" type="text/x-handlebars-template">
+<script id="Banner-vis3-template" type="text/x-handlebars-template">
 <!-- HBS file code here -->
     <div class="amp-dc-banner js_dc_banner">
         <div class="amp-dc-banner-pic-wrap">
@@ -99,7 +99,7 @@
         url: getQueryVar(['vse', 'content']),
         callback: function (data) {
     //New code to call script ID for HBS template    
-            var source   = document.getElementById("Banner-jeans3-template").innerHTML;
+            var source   = document.getElementById("Banner-vis3-template").innerHTML;
             var template = Handlebars.compile(source);
     //end of new code   
             document.querySelectorAll(".js_banner_wrap")[0].innerHTML = template(data[0]);

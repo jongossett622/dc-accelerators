@@ -9,9 +9,10 @@
   }
 
   .amp-dc-blog-title {
-    font-size: 2em;
+    font-size: 35px;
     text-align: center;
-  }
+    font-weight: bold;
+    font-family: "timesnewroman";
 
   .amp-dc-blog-content {
     margin-top: 20px;
@@ -36,11 +37,12 @@
     margin: 20px;
   }
   .amp-dc-description {
-    padding: 20px;
+    padding: 30px;
+    text-align: center;
   }
   .amp-dc-link {
     margin: 20px;
     font-weight: bold;
   }
+ }
 }
-
